@@ -81,9 +81,10 @@ public class CommonAPI{
         //To disable the Chrome popup
         ChromeOptions chromeoptions = new ChromeOptions();
         chromeoptions.addArguments("Disable-infobars");
+        //chromeoptions.addArguments("headless");
 
         if (platform.equalsIgnoreCase("windows") && browser.equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "../Generic/src/main/resources/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "../Generic/src/main/resources/chromedriver2.exe");
             driver = new ChromeDriver(chromeoptions);
         } else if (platform.equalsIgnoreCase("mac") && browser.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", "../Generic/src/main/resources/chromedriver");

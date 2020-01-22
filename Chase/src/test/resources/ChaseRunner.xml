@@ -4,7 +4,7 @@
     <parameter name="cloud" value="false"/>
     <parameter name="envName" value="browserstack"/>
     <parameter name="browser" value="chrome"/>
-    <parameter name="browserVersion" value="53.0"/>
+    <parameter name="browserVersion" value="79.0"/>
     <parameter name="url" value="https://www.chase.com"/>
     <parameter name="platform" value="windows"/>
     <test name="Automation tests">

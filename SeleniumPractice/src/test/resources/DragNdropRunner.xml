@@ -2,11 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Selenium Test Suite" parallel="false">
 
-
     <parameter name="cloud" value="false"/>
     <parameter name="envName" value="saucelabs"/>
     <parameter name="browser" value="chrome"/>
-    <parameter name="browserVersion" value="77.0"/>
+    <parameter name="browserVersion" value="79.0"/>
     <parameter name="url" value="http://demo.guru99.com/test/drag_drop.html"/>
     <parameter name="platform" value="Windows"/>
 

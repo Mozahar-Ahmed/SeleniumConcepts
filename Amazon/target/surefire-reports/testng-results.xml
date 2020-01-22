@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Users\13135\automation\Amazon\target\surefire-reports\html]]>
+    </line>
+  </reporter-output>
+  <suite name="Selenium Test Suite" duration-ms="20637" started-at="2019-10-11T12:34:18Z" finished-at="2019-10-11T12:34:38Z">
+    <groups>
+    </groups>
+    <test name="Automation tests" duration-ms="20637" started-at="2019-10-11T12:34:18Z" finished-at="2019-10-11T12:34:38Z">
+      <class name="homepageTest.HeaderLinkedButtonTest">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:homepageTest.HeaderLinkedButtonTest@2096442d]" name="extentSetup" is-config="true" duration-ms="109" started-at="2019-10-11T12:34:18Z" finished-at="2019-10-11T12:34:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75f95314]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\13135\automation\Amazon\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:homepageTest.HeaderLinkedButtonTest@2096442d]" name="setupDriver" is-config="true" duration-ms="5651" started-at="2019-10-11T12:34:18Z" finished-at="2019-10-11T12:34:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[77.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homepageTest.HeaderLinkedButtonTest@2096442d]" name="startExtent" is-config="true" duration-ms="5" started-at="2019-10-11T12:34:24Z" finished-at="2019-10-11T12:34:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void homepageTest.HeaderLinkedButtonTest.testHeaderLinkedButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testHeaderLinkedButton()[pri:0, instance:homepageTest.HeaderLinkedButtonTest@2096442d]" name="testHeaderLinkedButton" duration-ms="11852" started-at="2019-10-11T12:34:24Z" finished-at="2019-10-11T12:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeaderLinkedButton -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homepageTest.HeaderLinkedButtonTest@2096442d]" name="afterEachTestMethod" is-config="true" duration-ms="229" started-at="2019-10-11T12:34:35Z" finished-at="2019-10-11T12:34:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHeaderLinkedButton status=SUCCESS method=HeaderLinkedButtonTest.testHeaderLinkedButton()[pri:0, instance:homepageTest.HeaderLinkedButtonTest@2096442d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:homepageTest.HeaderLinkedButtonTest@2096442d]" name="cleanup" is-config="true" duration-ms="2888" started-at="2019-10-11T12:34:36Z" finished-at="2019-10-11T12:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:homepageTest.HeaderLinkedButtonTest@2096442d]" name="generateReport" is-config="true" duration-ms="48" started-at="2019-10-11T12:34:39Z" finished-at="2019-10-11T12:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- homepageTest.HeaderLinkedButtonTest -->
+    </test> <!-- Automation tests -->
+  </suite> <!-- Selenium Test Suite -->
+</testng-results>

@@ -11,7 +11,7 @@ public class SearchTest extends HomePage {
 
     ResultPage resultpage = new ResultPage();
 
-    @Test(enabled = false)
+    @Test
     public void validateSearchButtonWorks() {
         clickOnSearchBar();
         typeOnSearchBar("Java Books");

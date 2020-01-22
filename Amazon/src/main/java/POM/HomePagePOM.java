@@ -8,7 +8,7 @@ import org.testng.Assert;
 
 import java.nio.channels.AsynchronousServerSocketChannel;
 
-public class HomePagePOM extends CommonAPI {
+public class HomePagePOM {
     /*WebElement element= getElementByLinkTest("Shopper Toolkit");
     WebElement element2=getElement("");
 

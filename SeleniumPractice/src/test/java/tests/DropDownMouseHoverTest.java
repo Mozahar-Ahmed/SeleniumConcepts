@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 public class DropDownMouseHoverTest extends CommonAPI {
-    @Test(enabled=false)
+    @Test(enabled=true)
     public void testDropDown(){
         WebElement element =getElement("//select[@id='gh-cat']");
         Select select=new Select(element);

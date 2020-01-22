@@ -13,6 +13,7 @@
         <module>Amazon</module>
         <module>Chase</module>
         <module>SeleniumPractice</module>
+        <module>AllIsWell</module>
     </modules>
 
     <dependencyManagement>
